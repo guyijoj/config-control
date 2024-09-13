@@ -35,7 +35,8 @@ text=$*
 length=${#text}
 
 for i in $(seq 1 $((length + 2))); do
-    line+="-"
+    line+="-"![Uploading Screen Shot 2024-09-13 at 2.07.15 AM.png…]()
+
 done
 
 echo "+${line}+"
