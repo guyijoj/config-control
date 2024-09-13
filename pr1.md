@@ -57,4 +57,18 @@ echo "+${line}+"
 
 <img width="743" alt="Screen Shot 2024-09-13 at 2 07 15 AM" src="https://github.com/user-attachments/assets/a06624fa-ed67-4e0b-bfbd-3568528f01f3">
 
+#ЗАДАНИЕ 5
+Написать программу для регистрации пользовательской команды (правильные права доступа и копирование в /usr/local/bin).
+**РЕШЕНИЯ:**
+```bash
+#!/bin/bash
+
+file=$1
+
+chmod 755 "./$file"
+
+sudo cp "$file" /usr/local/bin/
+```
+<img width="723" alt="Screen Shot 2024-09-13 at 2 55 52 AM" src="https://github.com/user-attachments/assets/b8e5e382-5f2e-422a-81a1-99cac3523a44">
+
 
