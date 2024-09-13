@@ -46,7 +46,7 @@ text=$*
 length=${#text}
 
 for i in $(seq 1 $((length + 2))); do
-    line+="-"![Uploading Screen Shot 2024-09-13 at 2.07.15 AM.png…]()
+    line+="-"<img width="743" alt="Screen Shot 2024-09-13 at 2 07 15 AM" src="https://github.com/user-attachments/assets/71ced841-afb7-484c-b949-ddee54f56728">
 
 done
 
@@ -54,4 +54,7 @@ echo "+${line}+"
 echo "| ${text} |"
 echo "+${line}+"
 ```
-<img width="658" alt="Screen Shot 2024-09-13 at 2 07 08 AM" src="https://github.com/user-attachments/assets/8bef1c2e-53f9-4ee8-af58-f3f2585588ac">
+
+<img width="743" alt="Screen Shot 2024-09-13 at 2 07 15 AM" src="https://github.com/user-attachments/assets/a06624fa-ed67-4e0b-bfbd-3568528f01f3">
+
+
