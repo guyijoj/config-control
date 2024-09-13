@@ -27,3 +27,19 @@ echo "+${line}+"
 ```
 <img width="732" alt="Screen Shot 2024-09-13 at 1 54 37 AM" src="https://github.com/user-attachments/assets/86fc1980-24e5-41cb-abdb-99a0668e4f17">
 
+# ЗАДАНИЕ 4
+ ```bash
+     #!/bin/bash
+
+text=$*
+length=${#text}
+
+for i in $(seq 1 $((length + 2))); do
+    line+="-"
+done
+
+echo "+${line}+"
+echo "| ${text} |"
+echo "+${line}+"
+```
+<img width="658" alt="Screen Shot 2024-09-13 at 2 07 08 AM" src="https://github.com/user-attachments/assets/8bef1c2e-53f9-4ee8-af58-f3f2585588ac">
