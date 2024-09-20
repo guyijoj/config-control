@@ -1,6 +1,6 @@
 # Задача 1 
 Вывести служебную информацию о пакете matplotlib (Python). Разобрать основные элементы содержимого файла со служебной информацией из пакета.  
-*Решение:  *  
+**РЕШЕНИЕ:**  
 hoangtugio@Vinh ~ % python3 -m pip show matplotlib     
 Name: matplotlib  
 Version: 3.9.2  
