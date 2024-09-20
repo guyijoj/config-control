@@ -1,14 +1,14 @@
 # Задача 1 
 Вывести служебную информацию о пакете matplotlib (Python). Разобрать основные элементы содержимого файла со служебной информацией из пакета.
-**Решение**
-hoangtugio@Vinh ~ % python3 -m pip show matplotlib   
-Name: matplotlib
-Version: 3.9.2
-Summary: Python plotting package
-Home-page: 
-Author: John D. Hunter, Michael Droettboom
-Author-email: Unknown <matplotlib-users@python.org>
-License: License agreement for matplotlib versions 1.3.0 and later
+**Решение:  **  
+hoangtugio@Vinh ~ % python3 -m pip show matplotlib     
+Name: matplotlib  
+Version: 3.9.2  
+Summary: Python plotting package  
+Home-page:   
+Author: John D. Hunter, Michael Droettboom  
+Author-email: Unknown <matplotlib-users@python.org>  
+License: License agreement for matplotlib versions 1.3.0 and later  
         =========================================================
         
         1. This LICENSE AGREEMENT is between the Matplotlib Development Team
