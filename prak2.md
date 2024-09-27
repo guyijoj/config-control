@@ -152,66 +152,51 @@ published 2 weeks ago by wesleytodd <wes@wesleytodd.com>
 **Решение:**
 -matplotlib
 
-digraph {
-        "python-dateutil" -> six [label=">=1.5"]
-        "python-dateutil" [label="python-dateutil\n2.9.0.post0"]
-        contourpy -> numpy [label=">=1.23"]
-        contourpy [label="contourpy\n1.3.0"]
-        cycler [label="cycler\n0.12.1"]
-        fonttools [label="fonttools\n4.53.1"]
-        kiwisolver [label="kiwisolver\n1.4.7"]
-        matplotlib -> "python-dateutil" [label=">=2.7"]
-        matplotlib -> contourpy [label=">=1.0.1"]
-        matplotlib -> cycler [label=">=0.10"]
-        matplotlib -> fonttools [label=">=4.22.0"]
-        matplotlib -> kiwisolver [label=">=1.3.1"]
-        matplotlib -> numpy [label=">=1.23"]
-        matplotlib -> packaging [label=">=20.0"]
-        matplotlib -> pillow [label=">=8"]
-        matplotlib -> pyparsing [label=">=2.3.1"]
-        matplotlib [label="matplotlib\n3.9.2"]
-        numpy [label="numpy\n2.1.1"]
-        packaging [label="packaging\n24.1"]
-        pillow [label="pillow\n10.4.0"]
-        pyparsing [label="pyparsing\n3.1.4"]
-        six [label="six\n1.16.0"]
+digraph {  
+        "python-dateutil" -> six [label=">=1.5"]  
+        "python-dateutil" [label="python-dateutil\n2.9.0.post0"]  
+        contourpy -> numpy [label=">=1.23"]  
+        contourpy [label="contourpy\n1.3.0"]  
+        cycler [label="cycler\n0.12.1"]  
+        fonttools [label="fonttools\n4.53.1"]  
+        kiwisolver [label="kiwisolver\n1.4.7"]  
+        matplotlib -> "python-dateutil" [label=">=2.7"]  
+        matplotlib -> contourpy [label=">=1.0.1"]  
+        matplotlib -> cycler [label=">=0.10"]  
+        matplotlib -> fonttools [label=">=4.22.0"]  
+        matplotlib -> kiwisolver [label=">=1.3.1"]  
+        matplotlib -> numpy [label=">=1.23"]  
+        matplotlib -> packaging [label=">=20.0"]  
+        matplotlib -> pillow [label=">=8"]  
+        matplotlib -> pyparsing [label=">=2.3.1"]  
+        matplotlib [label="matplotlib\n3.9.2"]  
+        numpy [label="numpy\n2.1.1"]  
+        packaging [label="packaging\n24.1"]  
+        pillow [label="pillow\n10.4.0"]  
+        pyparsing [label="pyparsing\n3.1.4"]  
+        six [label="six\n1.16.0"]  
 }
 <img width="708" alt="Screen Shot 2024-09-27 at 1 31 39 AM" src="https://github.com/user-attachments/assets/b1786737-963e-4e03-8ebb-1c6f35a759d8">
 
--express
-digraph express_dependencies {
-    node [shape=box];
-    express -> accepts;
-    express -> array-flatten;
-    express -> body-parser;
-    express -> content-disposition;
-    express -> content-type;
-    express -> cookie;
-    express -> cookie-signature;
-    express -> debug;
-    express -> depd;
-    express -> encodeurl;
-    express -> escape-html;
-    express -> etag;
-    express -> finalhandler;
-    express -> fresh;
-    express -> merge-descriptors;
-    express -> methods;
-    express -> on-finished;
-    express -> parseurl;
-    express -> path-to-regexp;
-    express -> proxy-addr;
-    express -> qs;
-    express -> range-parser;
-    express -> safe-buffer;
-    express -> send;
-    express -> serve-static;
-    express -> setprototypeof;
-    express -> statuses;
-    express -> type-is;
-    express -> utils-merge;
-    express -> vary;
-}           
+-express  
+digraph  {
+    express -> accepts[label="~1.3.8"];  
+    express -> statuses[label="2.0.1"];  
+    express -> "body-parser"[label="~1.20.3"];  
+    express -> "proxy-addr"[label="~2.0.7"];  
+    express -> "content-type"[label="~1.0.4"];  
+    express -> cookie[label="0.6.0"];  
+    express -> "cookie-signature";  
+    express -> debug[label="2.6.9"];  
+    express -> depd[label="~2.0.0"];  
+    express -> encodeurl[label="~2.0.0"];  
+    express -> "escape-html"[label="~1.0.3"];  
+    express -> etag[label="~1.8.1"];  
+    express -> finalhandler[label="1.3.1"];  
+    express -> fresh[label="~0.5.2"];  
+}            
+
+<img width="696" alt="Screen Shot 2024-09-27 at 1 52 53 AM" src="https://github.com/user-attachments/assets/b5e33e34-dfb5-46d1-9cb1-b275de1edd58">
 
 
 
