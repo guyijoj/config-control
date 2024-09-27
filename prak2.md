@@ -108,7 +108,7 @@ License: License agreement for matplotlib versions 1.3.0 and later
         Licensee agrees to be bound by the terms and conditions of this License
         Agreement.
 
-#Задача 2
+#Задача 2  
 Вывести служебную информацию о пакете express (JavaScript). Разобрать основные элементы содержимого файла со служебной информацией из пакета. Как получить пакет без менеджера пакетов, прямо из репозитория?  
 **Решение**
 hoangtugio@Vinh ~ % npm show express
