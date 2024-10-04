@@ -198,5 +198,31 @@ digraph  {
 
 <img width="696" alt="Screen Shot 2024-09-27 at 1 52 53 AM" src="https://github.com/user-attachments/assets/b5e33e34-dfb5-46d1-9cb1-b275de1edd58">
 
+#ЗАДАЧА 4
+Изучить основы программирования в ограничениях. Установить MiniZinc, разобраться с основами его синтаксиса и работы в IDE.
+Решить на MiniZinc задачу о счастливых билетах. Добавить ограничение на то, что все цифры билета должны быть различными (подсказка: используйте all_different). Найти минимальное решение для суммы 3 цифр.  
+**РЕШЕНИЕ: **  
+include "globals.mzn";
+% Задача о счастливых билетах
+
+int: num_digits = 6; % Количество цифр в билете
+var int: sum;
+
+array[1..num_digits] of var 0..9: digits;
+
+constraint all_different(digits);
+constraint
+  digits[1] + digits[2] + digits[3] = digits[4] + digits[5] + digits[6];
+  
+sum = digits[1] + digits[2] + digits[3];
+solve minimize sum;
+
+output [
+  "Билет: \(show(digits[1]))\(show(digits[2]))\(show(digits[3]))\(show(digits[4]))\(show(digits[5]))\(show(digits[6]))\n",
+  "Сумма цифр: \(sum)\n"
+];
+
+
+
 
 
