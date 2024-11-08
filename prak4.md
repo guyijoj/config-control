@@ -56,3 +56,23 @@ if __name__ == '__main__':
     target = input('Enter the target technology: ')  # Например, mathematics
     generate_makefile(civgraph, target)
 ```
+**ВЫВОД**  
+```
+> python3 civ_to_make.py
+Enter the target technology: mathematics
+mining
+bronze_working
+sailing
+astrology
+celestial_navigation
+pottery
+writing
+code_of_laws
+currency
+irrigation
+masonry
+early_empire
+mysticism
+drama_poetry
+mathematics
+```
